@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Source data for Snowflake Data Warehouse"
+    database: finance_db
+    schema: raw
+    tables:
+      - name: COMPREHENSIVE_BANKING_DATABASE
+        description: "Comprehensive banking database"

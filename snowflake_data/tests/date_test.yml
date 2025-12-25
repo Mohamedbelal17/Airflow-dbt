@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: Date_Dim
+    columns:
+      - name: date_value
+        tests:
+          - unique
+          - not_null
+
+  - name: Customer_Dim
+    columns:
+      - name: customer_name
+        tests:
+          - unique
+          - not_null

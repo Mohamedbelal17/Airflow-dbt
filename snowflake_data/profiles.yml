@@ -1,0 +1,13 @@
+snowflake_data:
+  outputs:
+    dev:
+      account: LISGPWL-DO14569
+      database: FINANCE_DB
+      password: test
+      role: ACCOUNTADMIN
+      schema: raw
+      threads: 4
+      type: snowflake
+      user: db_user
+      warehouse: finance_wh
+  target: dev
